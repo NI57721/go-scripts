@@ -53,7 +53,7 @@ func main() {
   var yes string
   switch {
   case isNoCommandlineArgs():
-    yes = "yes"
+    yes = "y"
   case includeHelpCommandlineArg():
     execHelp()
     return
